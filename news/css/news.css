@@ -1,0 +1,209 @@
+#wrap{}
+#content{width: 1200px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif}
+#content #col2 {width: 1200px; margin: 250px auto; position: relative; background: #fff}
+#content #col2 #title{font-size: 48px}
+#content #col2 select{width: 81px; height: 30px; border:solid 1px #ccc; margin-left: 10px}
+#content #title{text-align: center; margin-top: 100px}
+#content #title h2{font-weight: 700}
+
+/* list css */
+#list_search input{outline: none}
+
+#list_search{width: 100%; height: auto; overflow: hidden; margin-bottom: 0; margin-top: 50px}
+
+#list_search #list_search1{float: left; margin-left: 10px}
+#list_search #list_search1 span{font-weight: 700; color: #2179C4}
+
+#list_search #list_search2{width: 80px; height: 32px; float: left; margin-left: 460px}
+
+#list_search #list_search2 select{width: 81px; height: 30px; border:solid 1px #ccc; margin-left: 189px}
+
+#list_search #list_search3{margin-left: 10px; float: left; margin-left: 189px}
+
+#list_search #list_search3 input{width: 150px; height: 26px; border: solid 1px #cccccc}
+
+#list_search #list_search4{margin-left: 0; margin-top: 1px; float: right}
+#list_search #list_search4 button{padding: 5px 5px; border: 1px solid #ccc; width: 60px; position: relative; top: -1px; right: 22px}
+
+#list_top_title{padding: 10px 0; margin-bottom: 3px; color: #fff; font-weight: 700}
+
+#list_top_title li{display: inline-block; text-align: center; font-size: 18px}
+
+#list_top_title #list_title1{width: 80px}
+
+#list_top_title #list_title2{width: 530px}
+
+#list_top_title #list_title3{width: 145px}
+
+#list_top_title #list_title4{width: 130px}
+
+#list_top_title #list_title5{width: 95px}
+
+#list_content{height:380px}
+
+#list_item{overflow: hidden; height: 191px}
+#list_item:nth-last-child(1){margin-bottom: 100px}
+[id^='list_item']:nth-last-child(1){margin-bottom: 100px}
+#list_item ul{border-bottom: 1px solid #ccc; height: 190px; text-align: justify; background: #fff; transition: all .5s}
+#list_item ul:hover{background: #E8F0FE}
+#list_item ul:hover #list_item2{text-decoration: underline}
+#list_item ul li{float: left}
+#list_item ul:nth-last-child(1){margin-bottom: 100px}
+#list_item ul #list_item1{margin: 10px 0 0 10px; width: 260px; height: 170px}
+#list_item ul #list_item2{margin-top: 15px; width: 600px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 24px; font-weight: 700; padding: 0 15px 5px}
+#list_item ul #list_item3{width: 500px; height: 150px; padding: 10px 15px 0}
+#list_item ul #list_item3 a{width: 500px; color: #999; font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: normal; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;}
+#list_item ul #list_item4{width: auto; clear: both; position: relative; left: 285px; top: -60px; font-size: 13px}
+#list_item ul #list_item5{width: auto; position: relative; left: 285px; top: -60px; font-size: 13px}
+
+
+
+
+#page_button {
+margin-top:20px;
+text-align: center
+}
+
+
+#page_num {
+    float: left;
+    display: inline-block;
+	width: 17%;
+	text-align: center;
+    margin-left: 41%
+}
+
+#button {
+	float:right;
+	width: 20%;
+	text-align:right;
+    margin-right: 25px
+}
+#button a{border: 1px solid #ccc; background: #f1f1f1; padding: 5px 20px}
+
+/* write_form css */
+
+#write_form_title {
+	margin-top:20px;
+	width:99%;
+	height:20px;
+	text-align:center;
+	padding-top:7px;  
+	border-top:solid 2px #aaaaaa;
+	background-color:#eeeeee;
+}
+
+#write_form {
+	margin-top:10px;
+}
+
+#write_form #write_row1 {
+    width:99%; 
+	height:25px; 
+	margin:2px 0 2px 0; 
+}
+
+#write_form #write_row2 {
+    width:99%; 
+	height:25px; 
+	margin:2px 0 2px 0; 
+}
+
+#write_form #write_row3 {
+    width:99%; 
+	height:251px; 
+	margin:2px 0 2px 0; 
+}
+
+.write_line {
+    width:99%; 
+	border-bottom:solid 1px #cccccc;
+}
+
+#write_form .col1 {
+	float:left;
+	width:120px;
+	text-align:center;
+	padding:5px;
+	background-color:#eeeeee;
+}
+
+#write_form #write_row3 .col1 {
+	height:126px;
+	padding-top:120px;
+}
+
+#write_form .col2 {
+	float:left;
+	margin-left: 8px;
+	margin-top:2px;
+}
+
+#write_form #write_row1 .col2 {
+	float:left;
+	margin-top:6px;
+}
+
+#write_form #write_row1 .col3 {
+	float:left;
+	margin-top:4px;
+	margin-left:100px;
+}
+
+#write_row2 .col2 input {
+	width:650px;
+	height:17px;
+	border:solid 1px #cccccc;
+}
+
+#write_row3 .col2 textarea {
+    margin-top:1px;
+	border:solid 1px #cccccc;
+}
+
+#write_button {
+	margin-top:15px;
+	width:97%;
+	text-align:right;
+}
+
+/* view.php css */
+
+#view_comment {
+	margin:10px 0 0 10px;
+}
+
+#view_title {
+	height:18px;
+	padding:10px 8px 8px 8px;  
+	border-top:solid 2px #aaaaaa;
+	background-color:#eeeeee;
+	margin-bottom:5px;
+}
+
+#view_title1 {
+	float:left;
+	width:70%;
+}
+
+#view_title2 {
+	float:left;
+	width:28%;
+	text-align:right;
+}
+
+#view_content {
+	width:96%;
+	min-height:200px;
+	padding:15px;
+	overflow:hidden;
+	line-height:150%;
+	border-bottom:solid 1px #cccccc;
+}
+
+#view_button {
+	width:98%;
+	text-align:right;
+	margin-top:15px;
+	margin-bottom:15px;
+}

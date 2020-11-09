@@ -1,0 +1,25 @@
+/* 1depth의 공통 */
+
+.visual{width: 2000px; height: 300px; position: relative; left: 50%; margin-left: -1000px; z-index: -1; overflow: hidden; color: #e3e3e3; margin-top: 120px}
+.visual img{position: absolute; top: 0; z-index: -1}
+.visual h3{text-align: center; margin: 125px 0 30px 0; font-size: 36px; font-weight: 400; font-family: 'Nanum Gothic', sans-serif}
+.visual p{text-align: center; font-size: 20px; font-family: 'Nanum Myeongjo', serif}
+
+.subnav_box{margin: 0 auto}
+.subnav_box .subNav{border: 1px solid #ccc}
+.subnav_box .subNav ul{overflow: hidden; width: 1000px; margin: 0 auto}
+.subnav_box .subNav ul li{width: 50%; float: left; text-align: center}
+.subnav_box .subNav ul li a{display: block; padding: 20px 0; font-size: 20px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif}
+.subnav_box .subNav ul li a:hover{background: #3385b1; color: #fff; font-weight: 700; letter-spacing: -1px; transition: .3s}
+.subnav_box .subNav ul li .current{background: #3385b1; color: #fff; letter-spacing: -1px}
+
+#content{width: 1200px; margin: 0 auto}
+#content .lineMap{margin: 20px 50px 0 0; text-align: right}
+#content .lineMap span{font-size: 14px; font-family: 'Nanum Gothic', sans-serif}
+#content .title_area h2{font-size: 48px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; text-align: center; margin-top: 100px}
+#content .title_area p{font-size: 20px; font-family: 'Nanum Myeongjo', serif; text-align: center; margin-top: 30px; line-height: 1.5em}
+
+#content .content_area{overflow: hidden; margin-bottom: 150px}
+
+#content .jumpbtn{position: fixed; left: 1830px; top: 900px}
+#content .jumpbtn:hover{}

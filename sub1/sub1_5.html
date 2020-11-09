@@ -1,0 +1,109 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>포스플레이트-오시는 길</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content5.css">
+    
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ed937e63bdbc3dc4bf537a5ef8d2faf8"></script>
+    
+    <script src="../map/js/map3.js"></script>
+    
+    
+    <script src="../common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/0365f1fbdc.js" crossorigin="anonymous"></script>
+     
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    
+       <? include "../common/sub_head.html" ?>
+        
+        
+       <!-- 메인 비주얼영역 -->
+        <div class="visual">
+                <h3>회사소개</h3>
+                <p>희망과 행복의 온도를 높히는 포스플레이트</p>
+               <img src="common/images/visual_01.jpg" alt="">
+        </div>
+        <!-- 서브네비영역 -->
+        <div class="subnav_box">
+            <div class="subNav">
+                <ul>
+                    <li><a id="nav1" href="sub1_1.html">기업개요</a></li>
+                    <li><a id="nav2" href="sub1_2.html">CEO 인사</a></li>
+                    <li><a id="nav3" href="sub1_3.html">연혁</a></li>
+                    <li><a id="nav4" href="sub1_4.html">채용정보</a></li>
+                    <li><a id="nav5" class="current" href="sub1_5.html">오시는 길</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 본문컨텐츠영역 -->
+        <article id="content">
+            <div class="title_area">
+                <div class="lineMap">
+                    <span>HOME</span>&gt;<span>회사소개</span>&gt;<span><strong>오시는 길</strong></span>
+                </div>
+                <h2>오시는 길</h2>
+                <p><strong>포스플레이트</strong>로 <span>오시는 길</span>을 안내합니다.</p>
+            </div>
+            <div class="content_area">
+               
+               <div id="company_map">
+                </div>
+               
+                <div class="maptext">
+                    <ul>
+                        <li>주소</li>
+                        <li>전라남도 광양시 폭포사랑길 20-26 제철소본부 (우)57807</li>
+                        
+                        <li>대표전화</li>
+                        <li>061)790-9008</li>
+                        
+                        <li>FAX</li>
+                        <li>061)760-8551</li>
+                        
+                        <li>홈페이지</li>
+                        <li><a href="../index.html">www.posplate.com</a></li>
+                    </ul>
+                </div>
+                
+                    <div class="busstop"><p>BUS</p></div>
+                <div class="bus">
+                <ul>
+                    <li>
+                    <i class="fas fa-bus"> 87</i>중마터미널 승차 
+                    <span>&rArr;</span> 
+                    제철복지관 하차</li>
+                    
+                    <li>
+                    <i class="fas fa-bus"> 11-2</i>중마터미널 승차 
+                    <span>&rArr;</span> 
+                    동백아파트2 하차</li>
+                </ul>
+                </div>
+                
+            </div>
+            
+        </article>
+        
+        <? include "../common/sub_foot.html" ?>
+    
+</body>
+</html>

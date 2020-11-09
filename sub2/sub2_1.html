@@ -1,0 +1,74 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>포스플레이트-시편가공</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+     <script src="../common/js/prefixfree.min.js"></script>
+     <script src="https://kit.fontawesome.com/0365f1fbdc.js" crossorigin="anonymous"></script>
+     
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html" ?>
+        
+        <? $_GET['num']=1;
+      include "common/sub_nav.html"; 
+       ?>
+       
+        <!-- 본문컨텐츠영역 -->
+        <article id="content">
+            <div class="title_area">
+                <div class="lineMap">
+                    <span>HOME</span>&gt;<span>사업분야</span>&gt;<span><strong>시편가공</strong></span>
+                </div>
+                <h2>시편가공</h2>
+                <p><span>혼(魂)을 담아내는 장인의 손길</span>로 시편제작을 하겠습니다.</p>
+            </div>
+            <div class="content_area">
+               <div class="overview">
+                <div class="overview1">
+                <p>OVERVIEW</p>
+                </div>
+                
+                <div class="overview2">
+                    <p>저희 포스플레이트는 포스코 광양제철소 신후판 공장에서 생산되는 후판제품이 고객의 요규에 부합하는지를 판단하기 위한 다양한 시편을 제작하는 업무를 수행하고 있습니다. 시편제작 Mill Sheet을 바탕으로 충격시편, 환형인장시편, Z인장시편 등 10여종의 다양한 형태와 기준으로 제작하고 있습니다.</p>
+                </div>
+                </div>
+                
+                <img src="images/content1/item1_01.jpg" alt="">
+                
+                <div class="text">
+                    <h3>시편가공 주요공정</h3>
+                    <p>시편제작공정은 광양제철소 신후판공장의 MES를 통한 시편가공 제작요구에 따라 해당 제품을 전동대차나 트럭으로 이송하고 GAS Cutter 설비로 시험규격에 맞는 적당한 사이즈로 절단하며 Marking Machine으로 Numbering을 한 후 Cold Saw, CNC Milling, Maching Center 설비 등 자동 또는 수동설비를 이용하여 길이, 두께, 폭 등을 제작사양에 맞게 1차 가공하며, 가공된 시편은 다시 연마, Burr 제거, 세척, V-North 등 많게는 15개의 작업을 거쳐 충격시편, 환형인장시편, Z인장시편 등 약 10종의 다양한 형태와 기준으로 제작되어 집니다.</p>
+                    <p>이렇게 만들어진 시편은 광양제철소 재질시험실로 이송되어 경도시험, 인장시험, 충격시험 등 기계적 시험과 광학현미경을 통한 결함, 탈탄, 입도 등 조직검사를 제품 Spec에 따라 많게는 22종까지 시험을 한 후 그 결과서가 제품과 함께 클라이언트에게 전달됩니다. 이러한 시편제작의 목적은 고객의 요구에 부합하는지를 판단하기 위한 시험용소재로서 제작기준과 표준에 의한 정확한 작업 공정을 통해 이뤄져야 하며, 따라서 고도의 기술력과 전문성, 도덕성이 요구되는 수준 높은 작업입니다.  </p>
+                </div>
+                
+                
+            </div>
+        </article>
+        
+    <? include "../common/sub_foot.html" ?>
+    
+    <script src="../common/js/slide_move.js"></script>
+    
+    
+</body>
+</html>

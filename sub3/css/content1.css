@@ -1,0 +1,27 @@
+#content .content_area{position: relative}
+
+#content .content_area .text1{font-family: 'Nanum Gothic', sans-serif; color: #999; font-size: 36px; margin: 150px 0 340px 100px; line-height: 1.5em}
+#content .content_area .text1 p:nth-child(1){color: #ed1c24; font-size: 48px; font-family: 'arial'}
+
+#content .content_area img{position: absolute; left: 0; top: 0; margin-top: 100px; z-index: -1}
+
+
+#content .content_area .text2{margin-top: 650px}
+#content .content_area .text2 ul{font-family: 'Nanum Gothic', sans-serif; color: #333; margin-bottom: 50px}
+#content .content_area .text2 li:nth-child(1){font-size: 30px; font-weight: 700; margin-bottom: 20px}
+#content .content_area .text2 li:nth-child(2){font-size: 15px; line-height: 1.5em}
+
+
+
+#content .content_area .text3{}
+#content .content_area .text3 ul{font-family: 'Nanum Gothic', sans-serif; color: #333; margin-bottom: 50px}
+#content .content_area .text3 li:nth-child(1){font-size: 30px; font-weight: 700; margin-bottom: 20px}
+#content .content_area .text3 li:nth-child(2){font-size: 15px; line-height: 1.5em}
+
+
+#content .content_area .text4{}
+#content .content_area .text4 ul{font-family: 'Nanum Gothic', sans-serif; color: #333}
+#content .content_area .text4 li:nth-child(1){font-size: 30px; font-weight: 700; margin-bottom: 20px}
+#content .content_area .text4 li:nth-child(2){font-size: 15px; margin-bottom: 20px; font-weight: 700}
+#content .content_area .text4 li:nth-child(3){margin-bottom: 20px}
+#content .content_area .text4 li{font-size: 15px; line-height: 1.5em}

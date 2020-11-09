@@ -1,0 +1,46 @@
+body{font-size:12px; font-family: "Nanum"; background: url(../../images/visual_03.jpg); background-size: cover}
+#content{width: 720px; margin: 200px auto; padding: 60px 0 40px; background: #fff; box-shadow: 0 0 10px rgb(0,0,0,.1)}
+h2{margin-bottom: 20px; text-align: center; font-size: 55px; font-family: "Nanum"; font-weight: 400}
+
+form ul{font-family: 'Nanum'; color: #333}
+form ul li{padding: 15px; border-bottom: 1.5px solid #ddd; margin: 0 auto}
+form ul li{font-size: 14px; font-weight: bold; padding: 30px 15px 10px; width: 500px}
+form ul li:nth-child(1) input,form ul li:nth-child(5) input{width:310px}
+form ul li:nth-child(6) input,form ul li:nth-child(7) input{width:130px}
+form ul li select{border: 1px solid #ccc; padding: 7px;border: 1px solid #fff; font-size: 16px; width: 150px}
+form ul li input{outline-style: none; border: 1px solid #fff; padding: 12px 10px; width: 500px; font-size: 15px}
+.button{display: block; text-align: center; margin: 40px auto}
+.button .check{display: inline-block;width: 150px;line-height: 24px;padding: 8px 0;border: none;background: #2179c4;color: #fff;font-size: 14px;cursor: pointer; border: 1px solid #e1e1e1; transition: all .3s}
+.button .check:hover{background: #fff; border: 1px solid #999; color: #333}
+.button .reset{display: inline-block;width: 150px;line-height: 24px;padding: 8px 0;border: none;background: #999;color: #fff;font-size: 14px;cursor: pointer; border: 1px solid #e1e1e1; transition: all .3s}
+.button .reset:hover{background: #fff; border: 1px solid #999; color: #333}
+
+
+
+
+
+
+/* #content{background: #f1f1f1; text-align: center; margin-top: 120px; position: relative}
+#content h2{font-size: 28px; font-family: 'Nanum Gothic', sans-serif; font-weight: normal; margin: 0px; font-weight: 400; letter-spacing: -1px; padding-top: 50px}
+#content h2:after{display: block; width: 980px; border-bottom: 2px solid #3385b1; content: ""; padding-top: 45px; margin-left: -490px; position: relative; left: 50%}
+#content form{margin-top: 30px; padding-bottom: 100px; width: 1150px; margin-left: -575px; background: #fff; position: relative; left: 50%}
+#content form table{background: #fff; width: 1000px; margin-left: -500px; font-family: 'Nanum Gothic', sans-serif; color: #666; position: relative; left: 50%}
+
+#content form table tr{display: block; padding: 25px; border-bottom: 1px solid #e1e1e1; width: 100%; position: relative; left: 50%; margin-left: -50%}
+#content form table tr:nth-child(2){border-bottom: none; padding: 25px 25px 0}
+#content form table tr:nth-child(3){padding: 0 25px 25px}
+#content form table tr:nth-child(6) select{background: #fff}
+#content form table tr:nth-child(7) select{background: #fff}
+#content form table tr:nth-child(8){border-bottom: none}
+
+#content form table tr a[class^=btn]{padding: 17px 30px; width: 100px; display: inline-block; color: #fff}
+#content form table tr .btn1{background: #3385b1; margin-left: 290px}
+#content form table tr .btn2{background: #999; margin-left: 20px}
+
+
+#content form table th{font-weight: normal; padding: 10px; width: 200px}
+
+#content form table td{}
+
+#content form table td input{outline-color: #3385b1; border: 1px solid #e1e1e1; border-radius: 0; padding: 7px; background: #e8f0fe; outline-style: none}
+#content form table td select{outline-color: #3385b1; border: 1px solid #e1e1e1; border-radius: 0; padding: 7px; outline-style: none} */

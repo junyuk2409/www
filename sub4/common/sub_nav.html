@@ -1,0 +1,59 @@
+<script src="../../common/js/jquery-1.12.4.min.js"></script>
+     <script type="text/javascript">
+      $(document).ready(function() {
+          var num = '<?=$_GET['num']?>';
+         
+          if(num==1){
+              $('.sunNav ul li:eq(0)').find('a').addClass('current');
+          }else if(num==2){
+              $('.sunNav ul li:eq(1)').find('a').addClass('current');
+          }
+       });
+
+</script>
+      
+      <script>
+
+window.onload=function(){
+
+        var num = '<?=$_GET['num']?>';
+
+        var nav1= document.getElementById('nav1'); 
+
+        var nav2= document.getElementById('nav2');
+
+
+
+    
+
+          if(num==1){
+
+              nav1.className='current';
+
+          }else if(num==2){
+
+              nav2.className='current';
+
+          }
+          }
+
+}
+
+</script>   
+       
+
+       <!-- 메인 비주얼영역 -->
+        <div class="visual">
+                <h3>커뮤니티</h3>
+                <p>포스플레이트가 당신과 함께 합니다.</p>
+               <img src="common/images/visual_01.jpg" alt="">
+        </div>
+        <!-- 서브네비영역 -->
+        <div class="subnav_box">
+            <div class="subNav">
+                <ul>
+                    <li><a id="nav1" href="sub4_1.html">공지사항</a></li>
+                    <li><a id="nav2" href="sub4_2.html">자유게시판</a></li>
+                </ul>
+            </div>
+        </div>

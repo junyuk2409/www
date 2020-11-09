@@ -1,0 +1,25 @@
+#content{width: 1200px; margin: 0 auto; font-family: 'Nanum Gothic', sans-serif; position: relative}
+#col2{width: 1000px; position: relative; left: 50%; margin-left: -500px; margin-top: 250px}
+#col2 #title h4{display: block; font-size: 36px}
+#col2 #title h4:after{display: block; width: 1010px; border-bottom: 2px solid #333; content: ""; padding-top: 5px; position: relative; left: 50%; margin-left: -505px}
+
+#write_form{width: 1000px; overflow: hidden; margin-top: 30px; position: relative; left: 50%; margin-left: -500px}
+#write_row1{}
+#write_row1{width: 1010px; height: 50px}
+#write_row1 .col1{font-size: 24px; float: left}
+#write_row1 .col2{float: left; margin: 3px 0 0 151px; border: 1px solid #ced4da; border-radius: 5px; padding: 5px}
+#write_row1 .col3{margin-top: 10px; display: none}
+
+
+#write_row2{margin-bottom: 20px; text-align: center}
+#write_row2 .col1{font-size: 24px; float: left}
+#write_row2 .col2{margin-left: 53px}
+#write_row2 .col2 input{border: 1px solid #CED4DA; width: 600px; padding: 8px 0 8px 5px; outline: none; border-radius: 5px}
+
+#write_row3{text-align: center}
+#write_row3 .col1{font-size: 24px; float: left}
+#write_row3 .col2{}
+#write_row3 .col2 textarea{border: 1px solid #CED4DA; width: 595px; outline: none; padding: 5px; border-radius: 5px; font-family: 'Nanum Gothic', sans-serif}
+#write_button{overflow: hidden; margin: 20px 0 30px}
+#write_button a{float: left; display: block; background: #007BFF; border-radius: 5px; width: 30px; color: #fff; font-weight: 700; padding: 10px 20px; margin-left: 426.5px; border: 1px solid #e1e1e1}
+#write_button a:nth-child(2){margin-left: 7px}

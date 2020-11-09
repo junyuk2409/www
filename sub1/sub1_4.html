@@ -1,0 +1,86 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>포스플레이트-채용정보</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content4.css">
+    
+     <script src="../common/js/prefixfree.min.js"></script>
+     <script src="https://kit.fontawesome.com/0365f1fbdc.js" crossorigin="anonymous"></script>
+     
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    
+       <? include "../common/sub_head.html" ?>
+        
+        <? $_GET['num']=4;
+      include "common/sub_nav.html"; 
+       ?>
+        <!-- 본문컨텐츠영역 -->
+        <article id="content">
+            <div class="title_area">
+                <div class="lineMap">
+                    <span>HOME</span>&gt;<span>회사소개</span>&gt;<span><strong>채용정보</strong></span>
+                </div>
+                <h2>채용정보</h2>
+                <p>저희 <strong>포스플레이트</strong>는 고용노동부 인증 포스코 <span>사회적기업</span>으로<br>청년실업자, 고령자, 한부모가장, 장애인 등 사회취약계층을 우선 채용하고 있습니다.</p>
+            </div>
+            <div class="content_area">
+                <div class="interview1">
+                    <dl>
+                        <dt>지원자격</dt>
+                        <dd>▣ 생산기능직 : 고등학교 졸업 및 동등 학력 이상 소지자</dd>
+                        <dd>▣ 장기실업자, 청년실업자, 고령자, 장애인, 한부모가장 등</dd>
+                        <dd>※상세 지원자격은 채용공고시 게재</dd>
+                    </dl>
+                </div>
+                
+                <div class="interview2">
+                    <dl>
+                        <dt>근무형태</dt>
+                        <dd>▣ 4조 3교대 근무</dd>
+                    </dl>
+                </div>
+                
+                <div class="interview3">
+                    <dl>
+                        <dt>채용시기</dt>
+                        <dd>▣ 수시채용 : 결원 발생 시 자체 홈페이지나 광양희망일자리센터를<br>통해 채용공고 예정</dd>
+                    </dl>
+                </div>
+                
+                <div class="interview4">
+                    <dl>
+                        <dt>지원방법</dt>
+                        <dd>▣ 온라인 신청 : 광양희망일자리센터 홈페이지에 구직 신청</dd>
+                        <dd>▣ 홈페이지 입사지원서 양식을 다운로드하여 작성하여 접수처로 접수</dd>
+                        <dd>▣ 접수처 : 전남 광양시 금호동 700번지<br>(주)포스플레이트 경영지원부 채용담당자 앞 문의 061-795-7511</dd>
+                    </dl>
+                </div>
+                
+                    <img src="images/content4/interview_01.jpg" alt="">
+                
+            </div>
+            
+        </article>
+        
+        <? include "../common/sub_foot.html" ?>
+    
+</body>
+</html>

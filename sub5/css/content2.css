@@ -1,0 +1,30 @@
+#content .content_area{overflow: hidden}
+
+#content .content_area .posco{width: 300px; height: 300px; border: 1px solid #333; float: left; border-style: none}
+#content .content_area .posco img{margin-top: 126px}
+
+
+#content .content_area .poscohumans{width: 300px; height: 300px; border: 1px solid #333; float: left; border-style: none}
+#content .content_area .poscohumans img{margin-top: 92px}
+
+
+#content .content_area .songdose{width: 300px; height: 300px; border: 1px solid #333; float: right; border-style: none}
+#content .content_area .songdose img{margin-top: 115px}
+
+
+#content .content_area .worknet{width: 300px; height: 300px; border: 1px solid #333; float: left; border-style: none}
+#content .content_area .worknet img{margin-top: 126px}
+
+
+#content .content_area .goyong{width: 300px; height: 300px; border: 1px solid #333; float: left; border-style: none}
+#content .content_area .goyong img{margin-top: 126px}
+
+
+#content .content_area .hankook{width: 300px; height: 300px; border: 1px solid #333; float: right; border-style: none}
+#content .content_area .hankook img{margin-top: 143px}
+
+
+#content .content_area div{margin-right: 147px}
+#content .content_area div:nth-child(3n){margin-right: 0}
+
+#content .content_area div img:hover{transform: scale(1.1)}

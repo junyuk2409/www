@@ -1,0 +1,91 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>포스플레이트-창고관리</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub2common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+     <script src="../common/js/prefixfree.min.js"></script>
+     <script src="https://kit.fontawesome.com/0365f1fbdc.js" crossorigin="anonymous"></script>
+     
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html" ?>
+        
+        <? $_GET['num']=2;
+      include "common/sub_nav.html"; 
+       ?>
+       
+        <!-- 본문컨텐츠영역 -->
+        <article id="content">
+            <div class="title_area">
+                <div class="lineMap">
+                    <span>HOME</span>&gt;<span>사업분야</span>&gt;<span><strong>창고관리</strong></span>
+                </div>
+                <h2>창고관리</h2>
+                <p><span>희망과 꿈의 창고(倉庫)</span>를 지키는 창고지기가 되겠습니다.</p>
+            </div>
+            <div class="content_area">
+               <div class="overview">
+                <div class="overview1">
+                <p>OVERVIEW</p>
+                </div>
+                
+                <div class="overview2">
+                    <p>저희 포스플레이트에서는 포스코 광양제철소에서 생산된 후판제품의 입고에서 출하에 이르는 전과정의 창고관리업무를 수행하고 있습니다.</p>
+                </div>
+                </div>
+                
+                <img src="images/content2/item_02.jpg" alt="">
+                
+                <div class="text">
+                    <h3>후판제품 창고관리</h3>
+                    <p>후판제품 창고관리 업무는 포스코 광양제철소 후판공장에서 생산된 제품을 MES에 위치한 출하관제시스템의 각종 정보 지시에 따라 제품을 해당 위치에 저장, 보관하거나 이적하고, 출하 시 육송  Trailer나 수출 선박용 Pallet에 상차하는 전반적인 제품보관 및 출하업무를 수행하는 작업으로 이 업무는 20+20톤의 중후한 Magnetic 천장크레인 작업을 통해 이루어 지기 때문에 고도의 숙련된 기술과 안전성이 요구될 뿐 아니라 원활한 물류 흐름이 진행될 수 있도록 저장위치 변경, 출하순서 조정 등에 순발력 있게 대응하는 고도의 전문성과 Know-how가 요구되는 업무입니다.</p>
+                </div>
+                
+                <div class="workflow">
+                
+                <ol>
+                    <li><p>출하관제시스템</p></li>
+                    <li><p>MES입고관리</p></li>
+                    <li class="last"><p>제품입고</p></li>
+                </ol>
+                </div>
+                <div class="workflow2">
+                <ol>
+                    <li><p>보관/저장</p></li>
+                    <li><p>이적/변경</p></li>
+                    <li><p>상차</p></li>
+                    <li class="last"><p>출하</p></li>
+                </ol>
+                </div>
+                
+                
+                
+                
+            </div>
+        </article>
+        
+    <? include "../common/sub_foot.html" ?>
+    
+    <script src="../common/js/slide_move.js"></script>
+    
+</body>
+</html>

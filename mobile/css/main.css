@@ -1,0 +1,51 @@
+/* CSS Document */
+
+.main{position: relative}
+.slogan{z-index: 30}
+.slogan span{font-size: 16px; color: #fff; background: rgba(0,0,0,.7); font-family: 'Nanum Gothic', sans-serif; position: absolute; top: 42%; padding: 5% 0; width: 100%; text-align: center}
+
+
+#content .content_area{font-family: 'Nanum Gothic', sans-serif}
+#content .content_area h2{text-align: center; font-size: 18px; font-weight: 700; margin: 25px 0 10px 0}
+
+
+#content .content_area div[class^=item]{margin: 0 10px 35px 10px; font-size: 14px; text-align: justify}
+#content .content_area div[class^=item] img{margin: 0 auto}
+#content .content_area div[class^=item] h3{font-weight: 700; margin: 15px 0 5px 0}
+#content .content_area div[class^=item] p{}
+#content .content_area span{display: block; text-align: center; font-size: 14px; margin-bottom: 15px}
+
+#content .content_area div[class^=item] img:nth-child(even){margin-top: 10px}
+#content .content_area div[class^=item] a{display: block; border: 1px solid #333; text-align: left; font-size: 12px; width: 83px; padding: 5px; margin-top: 5px}
+
+
+
+
+#content .content_area .tabs{position: relative; width: 100%}
+#content .content_area .tabs ul{margin-top: 30px}
+#content .content_area .tabs ul li a{display: block; border: 1px solid #ccc; margin: 5px; padding: 20px 3%; position: relative}
+#content .content_area .tabs ul li a span{float: right; position: absolute; right: 5px; bottom: 5px; margin-bottom: 0}
+#content .content_area .tabs img{position: absolute; right: 15px; top: -30px}
+
+.tabs a.tab{display: block; width: 50%; position: absolute; text-align: center; font-size: 16px; font-weight: 700; color: #333; background: #fff; padding: 10px 0; border: 1px solid #ccc; font-family: 'arial'}
+.tabs a.tab1{position: absolute; left: 0; top: 0}
+.tabs a.tab2{position: absolute; left: 50%; top: 0}
+
+.tabs .contlist{display: none; padding: 15px 0;line-height: 1.5em; background: #fff}
+
+
+
+
+#content .content_area .video01{margin: 0 15px}
+#content .content_area .video01 video{width: 100%}
+
+#content .content_area .company{width: 100%; margin-bottom: 20px; font-size: 18px}
+#content .content_area .company h3{font-weight: 700}
+#content .content_area .company ul{text-align: center}
+#content .content_area .company li{border: 1px solid #ccc; border-radius: 10px; background: #fff; color: #333; padding: 5%; margin: 0 10px 5px 10px}
+
+
+#content .content_area .customer{overflow: hidden; width: 100%; text-align: center;}
+#content .content_area .customer ul{width: 94%; margin:0 3%}
+#content .content_area .customer li{width: 33.33%; float: left}
+#content .content_area .customer span{display: block; font-weight: 700; text-align:center}

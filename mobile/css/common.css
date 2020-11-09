@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* 모바일 코딩 필수 공통영역 */
+* {
+ margin:0;
+ padding:0;
+ -webkit-text-size-adjust:none; }
+body {
+ color:#333;
+ font-size:14px;
+ font-family:돋움, Dotum; }
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {
+ font-size:100%;
+ font-weight:normal; }
+hr { display:none; }
+a { color:inherit; }
+a, a:link {
+ color:#333;
+ text-decoration:none; }
+a:visited { color:#333; }
+a:hover, a:active {
+ color:#333;
+ text-decoration:none; }
+em, i, address {
+ font-style:normal;
+ font-weight:normal; }
+legend, caption {
+ display:none;
+ clear:both; }
+input, textarea, select, button, table {
+ font-size:inherit;
+ font-family:inherit;
+ line-height:inherit; }
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {
+ background:url(none);
+ border-radius:1px}
+textarea { resize:none; }
+label { cursor:pointer; }
+table{border-collapse: collapse}
+.hidden,#skipNav{display: block; position: absolute; left: -1000%; top: 0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+
+
+/* 헤더 공통 */
+#wrap{width: 100%;position: relative; overflow: hidden}
+
+#wrap #headerArea{width: 100%; height: 50px; position: relative}
+
+#wrap h1 img{width: 103px; position: absolute; left: 3%; top: 25%}
+
+#wrap .menu_btn img{width: 20px; position: absolute; right: 5%; top: 34%}
+
+
+
+
+.box{width: 100%; height: 100%; background: #000; opacity: 0.7; position: absolute; left: 0; top: 0; z-index: 10; display: none}
+
+#gnb{clear:both; width: 70%; position:absolute; right: -100%; top:0; background:#fff; opacity:0; z-index: 20; font-family: 'Nanum Gothic', sans-serif; font-size: 14px}
+
+#gnb nav .mclose{position: absolute; left: -30px; top: 0; font-size:2em; color:#fff}
+	     
+#gnb li{border-bottom: 1px solid #fff; text-align: center; font-weight: bold; color: #fff}
+#gnb li a{display: block; padding: 15px 0}
+#gnb li ul{background: #3385b1; display: none}
+#gnb li ul a{color: #fff}
+     
+#gnb .last{}
+
+
+
+/* 푸터 공통 */
+#footerArea{position: relative}
+#footerArea .address{overflow: hidden; font-family: 'Nanum Gothic', sans-serif; background: #333; color: #999; font-size: 14px}
+#footerArea .address ul{padding: 10px}
+#footerArea .address ul:nth-child(1) li{float: left; margin-right: 10px}
+#footerArea .address ul:nth-child(2){clear: both}
+#footerArea .address ul:nth-child(2) li{}
+#footerArea .bottom_logo{position: absolute; right: 15px; top: 18px}
+#footerArea .topMove{position: absolute; right: 15px; top: 50px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

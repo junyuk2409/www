@@ -1,0 +1,10 @@
+#content .content_area ul{width: 100%; margin-top: 100px}
+
+#content .content_area li{padding: 15px; font-size: 24px; font-family: 'Nanum Gothic', sans-serif; text-align: left; border-bottom: 1px solid #ccc; position: relative; transition: all .5s; padding: 30px 15px}
+
+#content .content_area li:nth-child(1){border-top: 1px solid #ccc}
+
+#content .content_area li:hover{background: #d1ebff}
+#content .content_area li:hover a{color: #3385b1; font-weight: 700}
+
+#content .content_area span{font-size: 15px; position: absolute; right: 15px; top: 60px}

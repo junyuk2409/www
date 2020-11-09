@@ -1,0 +1,234 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+?>
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>포스플레이트</title>
+    
+    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="common/css/common.css">
+    <link rel="stylesheet" href="maincss/main.css">
+
+    <script src="mainjs/mainpopup.js"></script>   
+    <script src="common/js/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/0365f1fbdc.js" crossorigin="anonymous"></script>
+ 
+    
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+
+<body>
+    
+        <? include "common/main_head.html" ?>
+        
+        <div class="visual">
+               <div class="gallery">
+                     <ul>
+                          <li><a href=""><img src="images/visual_01.jpg" alt='' /></a></li>
+                          <li><a href=""><img src="images/visual_02.jpg" alt='' /></a></li>
+                          <li><a href=""><img src="images/visual_03.jpg" alt='' /></a></li>
+                    </ul>
+             </div>
+             
+             <div class="gallery_text">
+                 <ul>
+                     <li><span>사회취약계층을 향해 사랑과 희망의 비행기를 날리다</span></li>
+                     <li><span>지역사회의 희망과 온도를 높이는 포스플레이트</span></li>
+                     <li><span>내일의 희망인 후판은 희망이 되어 대양을 누비게 될 것 입니다</span><li>
+                 </ul>
+             </div>
+             
+             
+            <div class="dock">
+              	<span class="mbutton btn1" ></span>
+              	<span class="mbutton btn2" ></span>
+              	<span class="mbutton btn3" ></span>
+              	<span class="ps"></span>
+            </div>
+          
+     	</div> 
+        
+        <article id="content">
+           
+           <div class="slideMenu">
+                <ul>
+                    <li><a class="link1" href="#con1"><span></span> 사업분야</a></li>
+                    <li><a class="link2" href="#con2"><span></span> 커뮤니티</a></li>
+                    <li><a class="link3" href="#con3"><span></span> 회사소개</a></li>
+                </ul>
+            </div>
+           
+           
+            <h2 class="hidden">본문콘텐츠영역</h2>
+            
+            <section class="con1">
+            <h3 class="hidden">사업분야</h3>
+            <div class="item1">
+                    <img src="images/item_01.jpg" alt="">
+            <div class="item1text">
+               
+                <h4 class="item1text1">시편가공</h4>
+                <p class="item1text2">혼(魂)을 담아내는 장인의 손길로<br>시편제작을 하겠습니다.</p>
+                <p class="item1text3">
+                    저희 포스플레이트는 포스코 광양제철소 신후판 공장에서<br>생산되는 후판제품이 
+                    고객의 요구에 부합하는지를 판단하기<br>위한 다양한 시편을 제작하는 업무를
+                    수행하고 있습니다.
+                </p>
+                <a href="sub2/sub2_1.html" class="item1text4">Learn more</a>
+            </div>
+            
+            </div>
+            
+            
+            
+            <div class="item2">
+               <div class="item2text">
+                <h4 class="item2text1">창고관리</h4>
+                <p class="item2text2">희망과 꿈의 창고(倉庫)를 지키는<br>창고지기가 되겠습니다.</p>
+                <p class="item2text3">
+                    저희 포스플레이트에서는 포스코 광양제철소에서 생상된<br>후판제품의 입고에서 
+                    출하에 이르는 전과정의<br>창고관리업무를 수행하고 있습니다.
+                </p>
+                <a href="sub2/sub2_2.html" class="item2text4">Learn more</a>
+            </div>
+                <img src="images/item_02.jpg" alt="">
+            </div>
+            </section>
+            
+            <section class="con2">
+            <h3 class="hidden">게시판</h3>
+            <div class="notice">
+               
+                        <? include "./lib/func1.php"; ?>
+                        <div class="notice1box">
+                            <h4>NEWS</h4>
+                                
+                                <!-- 최근 게시물 삽입 -->
+                                <? latest_article("news", 3, 25); ?>
+                                
+                            <a href="greet/list.php" class="notice1more"><span class="hidden">더보기</span><i class="fas fa-plus"></i></a>
+                        </div>
+                        
+                <div class="notice2box">
+                    <h4>NOTICE</h4>
+                        
+                        <? latest_article("greet", 3, 25); ?>
+                        
+                      <a href="news/list.php" class="notice2more"><span class="hidden">더보기</span><i class="fas fa-plus"></i></a>
+                </div>
+                
+            </div>
+            </section>
+            
+            <h3 class="hidden">슬로건</h3>
+            <div class="slogan">
+                <p>행복세상을 건너는<br><span>희망의 징검다리</span>가 되겠습니다.</p>
+            </div>
+            
+            
+            
+            <section class="con3">
+            <div class="company">
+                <h3 class="hidden">회사소개</h3>
+                <div class="ceo">
+                    
+                    <img src="images/company_01.jpg" alt="">
+                    <h4>CEO</h4>
+                    <a href="sub1/sub1_2.html"><i class="fas fa-arrow-alt-circle-right"></i></a>
+                    
+                </div>
+                
+                <div class="companyinfo">
+                    
+                    <img src="images/company_02.jpg" alt="">
+                    <h4>COMPANY</h4>
+                    <a href="sub1/sub1_1.html"><i class="fas fa-arrow-alt-circle-right"></i></a>
+                    
+                </div>
+                
+                <div class="year">
+                    
+                    <img src="images/company_03.jpg" alt="">
+                    <h4>HISTORY</h4>
+                    <a href="sub1/sub1_3.html"><i class="fas fa-arrow-alt-circle-right"></i></a>
+                    
+                </div>
+                
+            </div>
+            </section>
+            
+            
+            
+            <h3 class="hidden">업무</h3>
+            <div class="customer">
+                <a href="sub1/sub1_4.html" class="interview">
+                   <img src="images/customer_01.jpg" alt="">
+                    <h4>채용정보</h4>
+                    <span>RECRUIT</span>
+                </a>
+                <a href="sub1/sub1_5.html" class="map">
+                   <img src="images/customer_02.jpg" alt="">
+                    <h4>오시는 길</h4>
+                    <span>MAP</span>
+                </a>
+            </div>
+            
+            
+            
+            
+  
+        </article>
+        
+        <? include "common/main_foot.html" ?>
+    
+    <script src="mainjs/move.js"></script>
+ 
+
+    <!-- 팝업공지영역 -->
+<div id="showimage" style="z-index:40;position:absolute;width:322px;left:50px;top:150px;">
+  <script>
+    function closeWin(){
+       var chk = document.getElementById('Notice')
+       if ( chk.checked ) {
+             setCookie( "Notice", "done" , 1); //1이란 숫자는 1일간 안보임을 뜻합니다. 날짜는 자신에 맞게 수정하세요
+        }
+    }
+   if ( getCookie( "Notice" ) == "done" ) {
+       hidebox();
+   }
+ </script>
+   
+
+    <div>
+          <img src="popup/pop.png" alt="본 사이트는 상업적 목적이 아닌 개인 포트폴리오 용도로 만들어졌습니다. 홈페이지의 일부 내용과 기타 이미지 등은 그 출처가 따로 있음을 밝힙니다.">
+    </div>
+     <div style="font-size:12px;text-align:center;color:#fff;">
+       <input type="checkbox" name="Notice" id="Notice" value="" title="오늘은 이창을 열지 않음 선택상자"><label for="Notice">오늘은 이창을 열지 않음.</label>
+     <a href="#" style="color:#fff" onclick="closeWin();hidebox();return false;"> [close] </a>
+  </div>
+</div>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+

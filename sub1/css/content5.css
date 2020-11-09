@@ -1,0 +1,35 @@
+#content .title_area{margin-bottom: 100px}
+#content .title_area p span{color: #3385b1}
+
+#content .content_area{overflow: hidden; position: relative}
+
+
+#content .content_area .maptext{float: left}
+
+
+#content .content_area .maptext ul{font-family: 'Nanum Gothic', sans-serif; text-align: left; margin-top: 50px}
+
+
+#content .content_area .maptext li:nth-child(odd){font-size: 24px; font-weight: 700; margin-bottom: 20px}
+#content .content_area .maptext li:nth-child(even){font-size: 15px; margin-bottom: 50px}
+
+
+
+
+#content .content_area #company_map{width: 1198px; height: 600px; border: 1px solid #333}
+
+
+#content .content_area .busstop{width: 400px; height: 100px; background: black; margin-top: 50px; position: absolute; left: 680px; top: 620px}
+#content .content_area .busstop p{font-size: 36px; font-family: 'arial'; color: #fff; text-align: center; padding-top: 29px}
+
+
+#content .content_area .bus{width: 500px; height: 310px; font-size: 20px; font-family: 'Nanum Gothic', sans-serif; float: right; border: 1px solid #333; text-align: left; margin: 115px 70px 0 0}
+
+#content .content_area .bus ul{margin: 75px 20px}
+
+#content .content_area .bus span{font-weight: 700}
+#content .content_area .bus i{margin: 30px}
+
+
+
+

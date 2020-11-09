@@ -1,0 +1,158 @@
+#wrap{background: #f1f1f1}
+
+.visual{position: relative; width: 2000px; height: 938px; overflow: hidden; left: 50%; margin-left: -1000px}
+
+.gallery{position: relative; overflow: hidden; width: 6000px; height: 938px; left: 0; top: 0;}
+.gallery ul li{float: left; list-style: none; }
+
+.gallery_text{position: absolute; left: 0; top: 370px; width: 2000px;}
+.gallery_text li{text-align: center; font-size: 40px;line-height: 1.5em; color: #fff; background: rgba(0,0,0,.6); display: none; margin-top: 100px}
+.gallery_text li span{display: block; width:1200px;margin: 0 auto; padding: 50px 0}
+
+.dock{width: 500px; position: absolute; left: 950px; top: 890px}
+
+.dock span.mbutton{margin-right: 15px; cursor: pointer; display: block; float: left;  width: 16px; height: 16px; background: #fff; border-radius: 8px; transition: all .5s}
+
+.dock .ps{margin-right:15px; margin-top: 2px; cursor:pointer; display:block; float:left; width:25px; height: 25px; background:url(../images/stop.png) no-repeat}
+
+
+img{border:0; vertical-align:top}
+
+
+
+#content{position: relative; overflow: hidden; width: 1200px; left: 50%; margin-left: -700px; background: #fff; padding: 0 100px 0}
+
+#content .slideMenu{ position: fixed; left: 50%;
+    margin-left: 650px; top: 50%; }
+#content .slideMenu ul{}
+#content .slideMenu li{width: 110px; height: 33%; font-size: 20px; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; text-align: center; padding: 10px 0}
+#content .slideMenu li:nth-child(1){}
+
+
+#content .slideMenu ul li a{display: block; color: #999;transition: .3s}
+#content .slideMenu ul li a:hover{color: #666}
+#content .slideMenu ul li a.on span{background:#f23521}
+.slideMenu span {
+    display: block;float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background:#3385b1 ;}
+
+#content .con1{width: 1200px; height: 1100px}
+#content .item1{height: 541px; overflow: hidden; margin-top: 300px; transition: all .7s; opacity: 0; margin-bottom: 100px}
+#content .item1On{height: 541px; overflow: hidden; margin-top: 150px; opacity: 1}
+#content .item1 img{width: 708px; height: 442px; float: left; border-bottom-left-radius: 30px; border-top-right-radius: 30px; box-shadow: 5px 5px 10px 5px rgba(0,0,0,.3)}
+#content .item1 .item1text{width: 436px; float: right}
+#content .item1 .item1text1{font-size: 48px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 76px}
+#content .item1 .item1text2{font-size: 24px; font-family: 'Nanum Myeongjo', serif; font-weight: 700; line-height: 1.5em; margin-bottom: 52px}
+#content .item1 .item1text3{font-size: 15px; font-family: 'Nanum Gothic', sans-serif; line-height: 1.5em; margin-bottom: 26px}
+#content .item1 .item1text4{font-size: 14px; font-family: 'arial'; font-weight: 700; text-decoration: underline}
+
+
+
+#content .item2{overflow: hidden; opacity: 0; transition: all .7s; height: 450px}
+#content .item2On{overflow: hidden; opacity: 1; margin-top: 0}
+#content .item2 .item2text{width: 377px; text-align: right; float: left; margin-left: 76px}
+#content .item2 .item2text1{font-size: 48px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 76px}
+#content .item2 .item2text2{font-size: 24px; font-family: 'Nanum Myeongjo', serif; font-weight: 700; line-height: 1.5em; margin-bottom: 52px}
+#content .item2 .item2text3{font-size: 15px; font-family: 'Nanum Gothic', sans-serif; line-height: 1.5em; margin-bottom: 26px}
+#content .item2 .item2text4{font-size: 14px; font-family: 'arial'; font-weight: 700; text-decoration: underline}
+#content .item2 img{width: 691px; float: right; border-bottom-right-radius: 30px; border-top-left-radius: 30px; box-shadow: -5px 5px 10px 5px rgba(0,0,0,.3)}
+
+
+
+
+#content .notice{overflow: hidden; font-family: 'Nanum Gothic', sans-serif; margin-top: 170px; position: relative}
+#content .notice div{}
+#content .notice h4{font-size: 24px; font-family: 'arial'; font-weight: normal}
+#content .notice ul li{border: 1px solid #ccc; margin: 30px; width: 500px; height: 100px; position: relative; transition: all .5s}
+#content .notice ul li:hover{background: #E8F0FE}
+
+#content .notice ul li a{display: block; font-size: 20px; font-family: 'Nanum Gothic', sans-serif; margin: 20px}
+#content .notice ul li:hover a{font-weight: 700; color: #3385b1}
+#content .notice ul li .col2{font-size: 15px; position: absolute; bottom: 10px; right: 10px}
+
+
+.notice .notice1box{overflow: hidden; float: left; margin-left: 30px}
+.notice .notice1box h4{margin-left: 40px}
+.notice .notice1box ul li{}
+.notice .notice1box .notice1more{position: absolute; top: 10px; left: 540px}
+
+
+.notice .notice2box{float: right; margin-right: 30px}
+.notice .notice2box h4{margin-left: 40px}
+.notice .notice2box ul li{}
+.notice .notice2box .notice2more{position: absolute; top: 10px; right: 70px}
+
+
+
+
+
+#content .slogan{width: 1200px; height: 223px; opacity: 0; transition: all 1.5s; margin-bottom: 150px}
+#content .sloganOn{width: 1200px; height: 223px; opacity: 1}
+#content .slogan p{width: 800px; font-size: 35px; font-family: 'Nanum Myeongjo', serif; text-align: center; margin-top: 150px; line-height: 1.5em; color: #333; border-bottom: 1px solid #ccc; padding: 20px; margin-left: 210px}
+#content .slogan span{font-size: 45px}
+
+
+
+#content .customer{overflow: hidden; height: 438px}
+#content .customer h4{font-size: 36px; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin-bottom: 10px; color: #fff}
+#content .customer p{font-size: 24px; font-family: 'arial'; color: #fff}
+
+
+
+
+
+
+
+#content .company{overflow: hidden}
+#content .company div{overflow: hidden; border-radius: 30px; position: relative; width: 300px; height: 500px}
+#content .company h4{position: absolute; font-size: 48px; font-family: 'Nanum Myeongjo', serif; font-weight: 500; transition: all .8s; color: #fff}
+#content .company img{filter: brightness(50%); z-index: -1; transition: all .3s}
+#content .company div:hover img{transform: scale(1.1)}
+#content .company div:hover h4{filter: blur(100px)}
+#content .company div:hover i{z-index: 1; filter: blur(0); transition: all .8s}
+
+#content .company i{font-size: 70px; height: 500px; position: absolute; top: 220px; left: 120px; color: #fff; z-index: -1; filter: blur(100px); transition: all 1.5s}
+
+
+
+
+#content .company .ceo{float: left; margin-left: 75px}
+#content .company .ceo h4{top: 223px; left: 105px}
+
+#content .company .companyinfo{float: left; margin-left: 75px}
+#content .company .companyinfo h4{top: 225px; left: 22px}
+
+#content .company .year{float: right; margin-right: 75px}
+#content .company .year h4{top: 227px; left: 44px}
+
+
+
+
+#content .customer{width: 1200px; overflow: hidden; height: 282px; margin: 200px 0 100px 0}
+#content .customer .interview{width: 500px; height: 338px; position: relative; color: #fff; margin-left: 100px; overflow: hidden; float: left}
+#content .customer .interview:hover img{transform: scale(1.1)}
+#content .customer .interview h4{position: absolute; top: 110px; left: 180px}
+#content .customer .interview span{position: absolute; top: 160px; left: 200px; font-size: 20px; font-family: 'arial'}
+#content .customer .interview img{filter: brightness(50%); z-index: -1; transition: all .3s}
+
+
+#content .customer .map{width: 500px; position: relative; color: #fff; overflow: hidden; margin-right: 100px; float: right}
+#content .customer .map:hover img{transform: scale(1.1)}
+#content .customer .map h4{position: absolute; top: 110px; left: 177px}
+#content .customer .map span{position: absolute; top: 160px; left: 228px; font-size: 20px; font-family: 'arial'}
+#content .customer .map img{filter: brightness(50%); z-index: -1; transition: all .3s}
+
+
+
+
+
+
+
+.text{position: fixed; right:0; top: 0; font-size: 50px; z-index: 100}
+
+.navBox ul li a.spy{background: #333; color: #f00}
+
+#content div.boxMove{right:0; opacity: 1}

@@ -1,0 +1,64 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>포스플레이트-홍보영상</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub5common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+     <script src="../common/js/prefixfree.min.js"></script>
+     <script src="https://kit.fontawesome.com/0365f1fbdc.js" crossorigin="anonymous"></script>
+     
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html" ?>
+        
+        <? $_GET['num']=1;
+      include "common/sub_nav.html"; 
+       ?>
+       
+        <!-- 본문컨텐츠영역 -->
+        <article id="content">
+            <div class="title_area">
+                <div class="lineMap">
+                    <span>HOME</span>&gt;<span>고객센터</span>&gt;<span><strong>홍보영상</strong></span>
+                </div>
+                <h2>홍보영상</h2>
+                <p></p>
+                
+            </div>
+            <div class="content_area">
+                <p>주식회사 포스플레이트</p>
+                <div class="video1">
+                    <iframe width="1000" height="566" src="https://www.youtube.com/embed/d9e0ZKI97gU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <p>SOS 배려교통 캠페인</p>
+                <div class="video2">
+                    <iframe width="1000" height="566" src="https://www.youtube.com/embed/Le9f_RGosNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+        </article>
+        
+        <? include "../common/sub_foot.html" ?>
+        
+        <script src="../common/js/slide_move.js"></script>
+    
+</body>
+</html>

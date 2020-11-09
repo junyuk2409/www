@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+    <title>DEADPOOL</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/series.css">
+
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/slide_move.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/nav.js"></script>
+
+    <script>
+        // <![CDATA[
+        try {
+            window.addEventListener('load', function() {
+                setTimeout(scrollTo, 0, 0, 1);
+            }, false);
+        } catch (e) {}
+        // ]]>
+
+        $(document).ready(function() {
+            $('.popup-youtube').magnificPopup({
+                disableOn: 320,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: true,
+
+                fixedContentPos: false
+            });
+        });
+    </script>
+
+    <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+    <div id="wrap">
+
+        <div class="imgbox">
+            <img id="imgBG" src="images/gallery_visual_01.jpeg" alt="">
+            <!-- <img src="images/back.jpg" id="imgBG"> -->
+            <img id="subBG" src="images/visual_02.jpg" alt="">
+
+            <!-- <a class="down" href="#">SCROLL DOWN</a> -->
+            <a href="#">
+                <div class="scroll-downs">
+                    <div class="mousey">
+                        <div class="scroller">
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <header id="headerArea">
+            <div class="headerInner">
+                <h1><a href="index.html"><img src="images/logo_deadpool_01.png" alt=""></a><p class="hidden">DEADPOOL</p></h1>
+                <a class="menuOpen" href="#"><img src="images/menubtn_01.png" alt=""></a>
+                <nav id="gnb">
+                    <h2 class="hidden">글로벌네비게이션영역</h2>
+                    <ul>
+                        <li><a href="trailer.html">MOVIE</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="characters.html">CHARACTERS</a></li>
+                        <li><a href="series.html">SERIES</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <article id="content">
+            <h2 class="hidden">본문컨텐츠영역</h2>
+            
+            <section class="series">
+                <h3>SERIES</h3>
+                
+                <div class="series1">
+                    <figure>
+                        <img src="images/poster_01.jpg" alt="">
+                    </figure>
+                    <figcaption>
+                        <span>DEADPOOL 1</span>
+                        <p>Zero sense of justice, zero sense of responsibility, spirit of Interstellar Marvel, the most attractive hero'dead pool' in history is coming! 'Wade Wilson (Ryan Lenolds)', a mercenary from a former special force, participates in a secret experiment for cancer treatment, and then regenerates a powerful healing factor into a superhero'Deadpool'. Despite his martial arts skills and unstoppable sense of humor, the deadpool on the back begins to pursue those who have completely ruined his life...</p>
+                    </figcaption>
+                </div>
+                
+                <div class="series2">
+                    <figure>
+                        <img src="images/poster_02.jpg" alt="">
+                    </figure>
+                    <figcaption>
+                        <span>DEADPOOL 2</span>
+                        <p>After participating in an experiment for cancer treatment, Wade Will (Ryan Lenolds) reborn as a superhero deadpool with a powerful healing factor ability. Dreams of a happy future with her destiny girlfriend Vanessa (Morena Bakarin), but falls back to hell, and Deadpool, who has gone down to the bottom, decides to become a better person. One day, as a mercenary cable (Josh Brolin), who can travel in time from the future, visits, a new incident occurs, and Deadpool has formed an unexpectedly extraordinary family...</p>
+                    </figcaption>
+                </div>
+                
+                <div class="series3">
+                    <figure>
+                        <img src="images/poster_03.jpg" alt="">
+                    </figure>
+                    <figcaption>
+                        <span>ONCE UPON A DEADPOOL</span>
+                        <p>Wisecracking mercenary Deadpool meets Russell, an angry teenage mutant who lives at an orphanage. When Russell becomes the target of Cable -- a genetically enhanced soldier from the future -- Deadpool realizes that he'll need some help saving the boy from such a superior enemy. He soon joins forces with Bedlam, Shatterstar, Domino and other powerful mutants to protect young Russell from Cable and his advanced weaponry.</p>
+                    </figcaption>
+                </div>
+                
+            </section>
+            
+        </article>
+    </div>
+
+    <footer id="footerArea">
+        <img src="images/logo_marvel_01.jpg" alt="">
+        <ul>
+            <li>ABOUT MARVEL</li>
+            <li>HELP/FAQS</li>
+            <li>&copy;2020 MARVEL</li>
+        </ul>
+    </footer>
+
+    <div class="topMove">
+        <a href="#">
+            <img src="images/topMove_01.png" alt="">
+        </a>
+    </div>
+    
+</body>
+</html>

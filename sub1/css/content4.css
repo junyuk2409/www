@@ -1,0 +1,13 @@
+#content .title_area{margin-bottom: 100px}
+#content .title_area p span{color: #3385b1}
+
+#content .content_area{position: relative}
+#content .content_area div{border: 1px solid #999; margin-bottom: 10px; padding: 20px 0 20px 20px; width: 500px; background: rgba(255,255,255,.8)}
+#content .content_area dl{font-family: 'Nanum Gothic', sans-serif}
+#content .content_area dt{font-size: 24px; font-weight: 700; margin-bottom: 15px; color: #333}
+#content .content_area dd{line-height: 1.5em; font-size: 15px; color: #333}
+#content .content_area .interview1 dd:nth-child(4){font-weight: 700; color: #3381b1; margin-top: 15px}
+
+#content .content_area .interview1{margin-top: 23px}
+
+#content .content_area img{z-index: -1; position: absolute; left: 200px; top: 10px}

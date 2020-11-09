@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+    <title>DEADPOOL</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="app_icon.png">
+    <link rel="apple-touch-startup-image" href="startup.png">
+
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/characters.css">
+
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/slide_move.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/nav.js"></script>
+
+    <script>
+        // <![CDATA[
+        try {
+            window.addEventListener('load', function() {
+                setTimeout(scrollTo, 0, 0, 1);
+            }, false);
+        } catch (e) {}
+        // ]]>
+
+        $(document).ready(function() {
+            $('.popup-youtube').magnificPopup({
+                disableOn: 320,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: true,
+
+                fixedContentPos: false
+            });
+        });
+    </script>
+
+    <!--[if lt IE 9]> 
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+    <div id="wrap">
+
+        <div class="imgbox">
+            <img id="imgBG" src="images/gallery_visual_01.jpeg" alt="">
+            <!-- <img src="images/back.jpg" id="imgBG"> -->
+            <img id="subBG" src="images/visual_02.jpg" alt="">
+
+            <!-- <a class="down" href="#">SCROLL DOWN</a> -->
+            <a href="#">
+                <div class="scroll-downs">
+                    <div class="mousey">
+                        <div class="scroller">
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <header id="headerArea">
+            <div class="headerInner">
+                <h1><a href="index.html"><img src="images/logo_deadpool_01.png" alt=""></a><span class="hidden">DEADPOOL</span></h1>
+                <a class="menuOpen" href="#"><img src="images/menubtn_01.png" alt=""></a>
+                <nav id="gnb">
+                    <h2 class="hidden">글로벌네비게이션영역</h2>
+                    <ul>
+                        <li><a href="trailer.html">MOVIE</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="characters.html">CHARACTERS</a></li>
+                        <li><a href="series.html">SERIES</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+
+        <article id="content">
+            <h2 class="hidden">본문컨텐츠영역</h2>
+            
+            <section class="characters">            
+                <div class="title">
+                   <h3>CHARACTERS</h3>
+                </div>
+                
+                <ul>
+                    <li>
+                        <figure>
+                        <img src="images/deadpool_01.jpg" alt="">
+                        <figcaption><span>DEADPOOL</span>
+                            <p>Deadpool is a Canadian freelance mercenary who became a superhuman with a regenerative healing factor from the Mutant Workshop program</p>
+                        </figcaption>
+                    </figure>
+                    </li>
+                    <li>
+                        <figure>
+                        <img src="images/colossus_01.jpg" alt="">
+                        <figcaption>
+                            <span>COLOSSUS</span>
+                            <p>Colossus is a mutant who can cover his entire body in an incredibly dense, organic metallic layer.</p>
+                        </figcaption>
+                    </figure>
+                    </li>
+                    <li>
+                        <figure>
+                        <img src="images/negasonic_01.jpg" alt="">
+                        <figcaption>
+                            <span>NTW</span>
+                            <p>Negasonic Teenage Warhead is a mutant and a member of the X-Men. She possess the mutant ability to detonate atomic bursts from her body</p>
+                        </figcaption>
+                    </figure>
+                    </li>
+                    <li>
+                        <figure>
+                        <img src="images/vanessa_01.jpg" alt="">
+                        <figcaption>
+                            <span>VANESSA</span>
+                            <p>Vanessa Carlysle is the fiancee/wife of Wade Wilson/Deadpool</p>
+                        </figcaption>
+                    </figure>
+                    </li>
+                    <li>
+                        <figure>
+                        <img src="images/dopinder_01.jpg" alt="">
+                        <figcaption>
+                            <span>DOPINDER</span>
+                            <p>Dopinder is a taxi driver that lives in New York City</p>
+                        </figcaption>
+                    </figure>
+                    </li>
+                </ul>
+                </section>
+                
+                <section class="subcharacters">            
+                <div class="title">
+                   <h3>SUB</h3>
+                </div>
+                
+                <ul>
+                    <li>
+                        <figure>
+                        <img src="images/cable_01.jpg" alt="">
+                        <figcaption><span>CABLE</span>
+                            <p>Deadpool is a Canadian freelance mercenary who became a superhuman with a regenerative healing factor from the Mutant Workshop program</p>
+                        </figcaption>
+                    </figure>
+                    </li>
+                    <li>
+                        <figure>
+                        <img src="images/firefist_01.jpg" alt="">
+                        <figcaption>
+                            <span>FIREFIST</span>
+                            <p>Colossus is a mutant who can cover his entire body in an incredibly dense, organic metallic layer.</p>
+                        </figcaption>
+                    </figure>
+                    </li>
+                    <li>
+                        <figure>
+                        <img src="images/domino_01.jpg" alt="">
+                        <figcaption>
+                            <span>DOMINO</span>
+                            <p>Negasonic Teenage Warhead is a mutant and a member of the X-Men. She possess the mutant ability to detonate atomic bursts from her body</p>
+                        </figcaption>
+                    </figure>
+                    </li>                    
+                </ul>
+                
+            </section>
+                
+            
+            
+            
+            
+        </article>
+    </div>
+
+    <footer id="footerArea">
+        <img src="images/logo_marvel_01.jpg" alt="">
+        <ul>
+            <li>ABOUT MARVEL</li>
+            <li>HELP/FAQS</li>
+            <li>&copy;2020 MARVEL</li>
+        </ul>
+    </footer>
+
+    <div class="topMove">
+        <a href="#">
+            <img src="images/topMove_01.png" alt="">
+        </a>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,122 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>포스플레이트-연혁</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+     <script src="../common/js/prefixfree.min.js"></script>
+     <script src="https://kit.fontawesome.com/0365f1fbdc.js" crossorigin="anonymous"></script>
+     
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    
+       <? include "../common/sub_head.html" ?>
+        
+        <? $_GET['num']=3;
+      include "common/sub_nav.html"; 
+       ?>
+       
+        <!-- 본문컨텐츠영역 -->
+        <article id="content">
+            <div class="title_area">
+                <div class="lineMap">
+                    <span>HOME</span>&gt;<span>회사소개</span>&gt;<span><strong>연혁</strong></span>
+                </div>
+                <h2>연혁</h2>
+                <p>포스플레이트의 <span>발자취</span>입니다.</p>
+            </div>
+            <div class="content_area">
+              
+               <div class="year1">
+                   <p>2009's</p>
+                   <div class="year1hover">
+                   <dl><dt>10.15</dt><dd>포스코 재정 및 운영위원회 법인설립 승인</dd></dl>
+                   </div>
+               </div>
+               
+               <div class="year2">
+                   <p>2010's</p>
+                   <div class="year2hover">
+                   <dl>
+                       <dt>01.22</dt><dd>법인설립</dd>
+                       <dt>02.10</dt><dd>직원채용</dd>
+                       <dt>03.01</dt><dd>포스코 외주 용역 기본계약 체결</dd>
+                       <dt>03.16</dt><dd>조업 대비 척수</dd>
+                       <dt>07.01</dt><dd>정상 조업 개시</dd>
+                   </dl>
+                   </div>
+               </div>
+               
+               <div class="year3">
+                   <p>2011's</p>
+                   <div class="year3hover">
+                   <dl>
+                       <dt>03.18</dt><dd>창립 1주년 기념행사</dd>
+                       <dt>03.28</dt><dd>(주)포스하이메탈 외주용역 기본계약 체결</dd>
+                       <dt>05.27</dt><dd>사회적기업 인증</dd>
+                   </dl>
+                   </div>
+               </div>
+               
+               <div class="year4">
+                   <p>2012's</p>
+                   <div class="year4hover">
+                   <dl>
+                       <dt>11.23</dt><dd>포스코 보유 주식 (사)한국국제기아대책기구 무상기증</dd>
+                       <dt>12.01</dt><dd>포스코 기술연구소 시편가공 외주용역 계약 체결</dd>
+                       <dt>12.06</dt><dd>ISO 9001, ISO4001, OHSAS 18001 통합 인증 취득</dd>
+                   </dl>
+                   </div>
+               </div>
+               
+               <div class="year5">
+                   <p>2014's</p>
+                   <div class="year5hover">
+                   <dl>
+                       <dt>09.01</dt><dd>2014년 노사문화 대상 수상</dd>
+                   </dl>
+                   </div>
+               </div>
+               
+               <div class="year6">
+                   <p>2015's</p>
+                   <div class="year6hover">
+                   <dl>
+                       <dt>08.26</dt><dd>무재해 4배 달성 인증</dd>
+                   </dl>
+                   </div>
+               </div>
+               
+               
+               <div class="background1"></div>
+               <div class="background2"></div>
+               
+               
+               
+               
+            </div>
+            
+        </article>
+        
+        <? include "../common/sub_foot.html" ?>
+        
+    
+</body>
+</html>

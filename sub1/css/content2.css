@@ -1,0 +1,11 @@
+#content .content_area .ceo{margin-bottom: 50px}
+#content .content_area img{margin: 40px 0 0 475px; border: 2px solid #ccc}
+#content .content_area .ceo p:nth-child(even){font-size: 24px; font-family: 'Nanum Myeongjo', serif; margin: 30px 0 20px 0; text-align: center}
+#content .content_area .ceo p:nth-child(odd){font-size: 20px; font-family: 'Nanum Gothic', sans-serif; text-align: center}
+#content .content_area span{color: #3385b1}
+
+
+#content .content_area .ceo2{width: 894px; margin-left: 153px}
+
+#content .content_area .ceo2 p{font-size: 20px; font-family: 'Nanum Gothic', sans-serif; line-height: 2em; text-align: justify; margin-bottom: 30px}
+#content .content_area .ceo2 p:nth-last-child(1){font-weight: 700}

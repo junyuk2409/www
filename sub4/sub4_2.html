@@ -1,0 +1,78 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>포스플레이트-자유게시판</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub4common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+     <script src="../common/js/prefixfree.min.js"></script>
+     <script src="https://kit.fontawesome.com/0365f1fbdc.js" crossorigin="anonymous"></script>
+     
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html" ?>
+        
+     <? $_GET['num']=2;
+      include "common/sub_nav.html"; 
+       ?>
+        
+      
+        
+        
+        
+        <!-- 본문컨텐츠영역 -->
+        <article id="content">
+            <div class="title_area">
+                <div class="lineMap">
+                    <span>HOME</span>&gt;<span>공지사항</span>&gt;<span><strong>자유게시판</strong></span>
+                </div>
+                <h2>자유게시판</h2>
+                <p>포스코 패밀리사 &amp; 사회적기업 관련</p>
+                
+            </div>
+            <div class="content_area">
+                
+                    <ul>
+                        <li><a href="#">사랑나눔을 실천하는 포스플레이트</a><span>2018-10-02</span></li>
+                        
+                        <li><a href="#">빛나는 마음 - 월드컵 16강을 기원하며..</a><span>2014-02-12</span></li>
+                        
+                        <li><a href="#">봉사자에게 고마운 마음으로</a><span>2013-07-10</span></li>
+                        
+                        <li><a href="#">비전 검사기 개발 및 제작</a><span>2013-03-12</span></li>
+                        
+                        <li><a href="#">안녕하세요</a><span>2013-01-03</span></li>
+                        
+                        <li><a href="#">번창을 기원합니다. / 좋은 글</a><span>2013-01-02</span></li>
+                        
+                        <li><a href="#">사회적기업이란 무엇인가요?</a><span>2012-01-10</span></li>
+                        
+                    </ul>
+                
+            </div>
+                
+        </article>
+        
+    <? include "../common/sub_foot.html" ?>
+    
+    <script src="../common/js/slide_move.js"></script>
+    
+</body>
+</html>

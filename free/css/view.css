@@ -1,0 +1,35 @@
+#wrap{background: #f1f1f1}
+#content{position: relative; margin: 250px 0; width: 1200px; left: 50%; margin-left: -600px}
+
+#content #col2{width: 1000px; position: relative; left: 50%; margin-left: -500px; font-family: 'Nanum Gothic', sans-serif; background: #fff; border-bottom-left-radius: 5px; border-bottom-right-radius: 10px}
+
+/* #view_comment{border: 1px solid pink} */
+#view_title{width: 1000px}
+#view_title1{padding: 20px; font-weight: 700; font-size: 24px; border-top: 7px solid #333}
+#view_title2{padding: 10px; background: #333; color: #fff; border-bottom: 1px solid #CED4DA; ; border-top: 1px solid #CED4DA}
+#view_content{padding: 20px; height: auto; border: 1px solid #CED4DA; border-top-style: none; text-align: center}
+#view_content p{text-align: left}
+
+#view_button{overflow: hidden; text-align: center; border: 1px solid #CED4DA; border-top-style: none; border-bottom-left-radius: 5px; border-bottom-right-radius: 10px}
+#view_button a{display: block; border: 1px solid #e1e1e1; width: 100px; float: left; background: #2179C4; margin: 25px 0 25px 102.4px; font-weight: 700; padding: 10px; color: #fff; transition: all .3s}
+#view_button a:hover{background: #fff; color: #333; border: 1px solid #999}
+
+/* 댓글 CSS */
+#wrap #ripple span:nth-child(1){display: block; width: 100%; background: #333; color: #fff; text-align: center; font-weight: 700; padding: 5px 0}
+
+#wrap #ripple_writer_title{border-left: 1px solid #ced4da; border-right: 1px solid #ced4da}
+#wrap #ripple_writer_title ul{overflow: hidden; background: #fafafa; border-bottom: 1px solid #ced4da}
+#wrap #ripple_writer_title ul li{float: left; font-size: 13px}
+#wrap #ripple_writer_title .nickbox{float: left; width: 230px; height: auto; margin-left: 10px; padding: 10px}
+#wrap #ripple_writer_title #writer_title1{color: #777; font-weight: 700; font-size: 14px}
+#wrap #ripple_writer_title #writer_title2{color: #999}
+#wrap #ripple_writer_title #ripple_content{font-family: 'Nanum Gothic', sans-serif; padding: 10px; width: auto; text-align: justify; margin: 0 100px 0 250px}
+#wrap #ripple_writer_title #writer_title3{float: right; padding: 10px 15px 10px 10px}
+
+#wrap .hor_line_ripple{background: green}
+#wrap form{background: #fff; border: 1px solid #ced4da; border-top: none}
+
+#wrap #ripple_box1{padding: 10px 0 10px 20px}
+#wrap #ripple_box2 textarea{border: 1px solid #CED4DA; width: 969px; outline: none; padding: 5px; border-radius: 5px; font-family: 'Nanum Gothic', sans-serif; margin: 0 10px}
+#wrap #ripple_box3{padding: 5px; border: 1px solid #999; background: #e1e1e1; width: 50px; border-radius: 5px; text-align: center; margin: 10px 0 10px 919px}
+#wrap #ripple_box3 a{font-weight: 700}

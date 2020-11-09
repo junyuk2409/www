@@ -1,0 +1,8 @@
+#content .content_area p{font-size: 36px; color: #333; font-weight: 700; font-family: 'Nanum Gothic', sans-serif; text-align: center}
+#content .content_area p:nth-child(1){margin-top: 100px}
+#content .content_area p:nth-child(3){margin-top: 100px}
+
+#content .content_area .video1{margin: 50px 0 0 100px}
+
+
+#content .content_area .video2{margin: 50px 0 0 100px}

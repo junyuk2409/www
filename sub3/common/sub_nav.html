@@ -1,0 +1,66 @@
+<script src="../../common/js/jquery-1.12.4.min.js"></script>
+     <script type="text/javascript">
+      $(document).ready(function() {
+          var num = '<?=$_GET['num']?>';
+         
+          if(num==1){
+              $('.sunNav ul li:eq(0)').find('a').addClass('current');
+          }else if(num==2){
+              $('.sunNav ul li:eq(1)').find('a').addClass('current');
+          }else if(num==3){
+              $('.sunNav ul li:eq(2)').find('a').addClass('current');
+          }
+       });
+
+</script>
+      
+      <script>
+
+window.onload=function(){
+
+        var num = '<?=$_GET['num']?>';
+
+        var nav1= document.getElementById('nav1'); 
+
+        var nav2= document.getElementById('nav2');
+
+        var nav3= document.getElementById('nav3');
+
+
+    
+
+          if(num==1){
+
+              nav1.className='current';
+
+          }else if(num==2){
+
+              nav2.className='current';
+
+          }else if(num==3){
+
+              nav3.className='current';
+
+          }
+
+}
+
+</script>   
+       
+
+       <!-- 메인 비주얼영역 -->
+        <div class="visual">
+                <h3>회사문화</h3>
+                <p>변화를 만드는 기업, 꿈을 만드는 기업, 행복을 만드는 기업</p>
+               <img src="common/images/visual_01.jpg" alt="">
+        </div>
+        <!-- 서브네비영역 -->
+        <div class="subnav_box">
+            <div class="subNav">
+                <ul>
+                    <li><a id="nav1" href="sub3_1.html">사회적기업</a></li>
+                    <li><a id="nav2" href="sub3_2.html">사회공헌활동</a></li>
+                    <li><a id="nav3" href="sub3_3.html">사내활동</a></li>
+                </ul>
+            </div>
+        </div>

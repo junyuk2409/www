@@ -1,0 +1,64 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>포스플레이트-CEO 인사</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+     <script src="../common/js/prefixfree.min.js"></script>
+     <script src="https://kit.fontawesome.com/0365f1fbdc.js" crossorigin="anonymous"></script>
+     
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    
+       <? include "../common/sub_head.html" ?>
+        
+        <? $_GET['num']=2;
+      include "common/sub_nav.html"; 
+       ?>
+       
+        <!-- 본문컨텐츠영역 -->
+        <article id="content">
+            <div class="title_area">
+                <div class="lineMap">
+                    <span>HOME</span>&gt;<span>회사소개</span>&gt;<span><strong>CEO 인사</strong></span>
+                </div>
+                <h2>CEO 인사</h2>
+                <p>지역사회의 자랑이 되는 기업으로 성장해 나가겠습니다.</p>
+            </div>
+            <div class="content_area">
+               <div class="ceo">
+                <img src="images/content2/ceo_02.jpg" alt="">
+                <p><strong>사장</strong>&nbsp;송재천</p>
+                <p><strong><span>사랑과 희망의 온도를 높히는 기업</span> 포스플레이트</strong></p>
+                </div>
+                <div class="ceo2">
+                    <p>저희 포스플레이트는 사회취약계층에게 안정적이고 지속가능한 일자리 창출을 목적으로 포스코에서 설립한 포스코 자립형 사회적기업입니다. 국내 최대규모 자랑하는 포스코 광양제철소 신후판 공장의 각종 시편제작 업무와 후판제품 창고관리 업무를 주로 하고 있습니다.</p>
+                    <p>기업의 외양은 여느 기업과 크게 다를 바 없지만 저희 포스플레이트는 포스코의 우수한 기술력과 경영 노하우를 지원 받아 생겨난 자립형 사회적기업이라는 측면에서 일반 기업과는 다른 출발점을 가지고 있습니다. 저희 같은 사회적기업은 일반 기업과는 달리 사회 취약계층의 안정적인 일자리창출과 이의 확대재생산에 역점을 두고 있습니다. 청년실업자, 고령자, 모자가정의 자녀 등 사회적 취약계층에 놓여있는 분들을 채용하여 장기간의 자격연수와 실습을 통하여 안정적인 일자리 창출을 꾀하고 있습니다.</p>
+                    <p>출범 당시 사회취약계층의 고용 확대가 자칫 생산성 저하로 이어지지 않을까 내심 걱정을 했었는데 취약계층이라 해서 결코 능력이나 자질, 그리고 실력이 결코 취약하지 않다는 것을 느꼈습니다. 단지 그들에게 일자리에 대한 기회가 없었다는 사실을 알게 되었습니다. 오히려 실직과 미취업이라는 아픔과 실의가 있었기에 더더욱 일에 열정을 낼 수 있고, 자신을 돌아보는 성찰의 자세로 직무에 임하기에 일에 대한 책임감과 사명감이 다른 누구보다 높다고 저 나름대로 평가하고 있습니다.</p>
+                    <p>이러한 직원들의 열정과 정성을 다하는 마음을 모아 이 지역사회의 희망의 불씨를 놓겠습니다. 지구언들에게는 새로운 삶의 기회가 되며, 지역사회에는 따뜻한 온기를 전하는 기업으로 성장하여 제2, 제3의 사회적 기업을 창출하는 모태가 되겠습니다. 포스플레이트는 따뜻함을 전하는 기업, 희망과 기쁨을 전하는 기업, 그래서 포스코와 지역사회의 자랑이 되는 기업으로 성장해 나가겠습니다.</p>
+                    <p>감사합니다.</p>
+                </div>
+            </div>
+        </article>
+        
+        <? include "../common/sub_foot.html" ?>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+#content .content_area{overflow: hidden
+}
+
+#content .content_area h3{font-weight: 400}
+
+#content .content_area .safe1{margin-top: 100px}
+#content .content_area .safe1 h3{font-size: 48px; font-family: 'arial'; color: #333}
+#content .content_area .safe1 p{font-size: 20px; font-family: 'Nanum Gothic', sans-serif; line-height: 1.5em; margin-top: 30px}
+#content .content_area .safe1 h3 span{color: #ed1c24}
+
+
+
+#content .content_area img:nth-child(2){margin-top: 30px; float: left; border: 1px solid #333}
+
+
+
+#content .content_area .safe2{margin: 70px 0 0 450px}
+#content .content_area .safe2 dl{font-family: 'Nanum Gothic', sans-serif; text-align: justify}
+#content .content_area .safe2 dt{font-weight: 700; color: #3385b1; font-size: 24px; margin-bottom: 10px}
+#content .content_area .safe2 dd{font-size: 15px; line-height: 1.5em; margin-bottom: 20px}
+
+
+
+
+
+#content .content_area .innovation1{margin-top: 200px}
+#content .content_area .innovation1 h3{font-size: 48px; font-family: 'arial'; color: #333}
+#content .content_area .innovation1 p:nth-child(2){font-size: 20px; font-family: 'Nanum Gothic', sans-serif; line-height: 1.5em; margin-top: 30px}
+#content .content_area .innovation1 h3 span{color: #ed1c24}
+
+
+
+#content .content_area img:nth-child(5){margin-top: 30px; float: left; border: 1px solid #333}
+
+
+
+#content .content_area .innovation2{margin: 75px 0 0 450px}
+#content .content_area .innovation2 dl{font-family: 'Nanum Gothic', sans-serif; text-align: justify}
+#content .content_area .innovation2 dt{font-weight: 700; color: #3385b1; font-size: 24px; margin-bottom: 10px}
+#content .content_area .innovation2 dd{font-size: 15px; line-height: 1.5em; margin-bottom: 20px}

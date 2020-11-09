@@ -1,0 +1,103 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>포스플레이트-사내활동</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub3common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+     <script src="../common/js/prefixfree.min.js"></script>
+     <script src="https://kit.fontawesome.com/0365f1fbdc.js" crossorigin="anonymous"></script>
+     
+    <!--[if IE9]>  
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+</head>
+<body>
+    
+    <? include "../common/sub_head.html" ?>
+        
+       <? $_GET['num']=3;
+      include "common/sub_nav.html"; 
+       ?>
+       
+        <!-- 본문컨텐츠영역 -->
+        <article id="content">
+            <div class="title_area">
+                <div class="lineMap">
+                    <span>HOME</span>&gt;<span>회사문화</span>&gt;<span><strong>사내활동</strong></span>
+                </div>
+                <h2>사내활동</h2>
+                
+            </div>
+            <div class="content_area">
+                
+                <div class="safe1">
+            
+                    <h3><span>ASA :</span> <span>A</span>lways <span>S</span>afety <span>A</span>ctivity</h3>
+                    <p>인간존중 사상의 기반 위에 안전하고 쾌적한 일터를 조성하여 무재해 사업장을 실현하며<br>나아가 가족사랑 실천 연장선상에 안전활동을 전개시켜나가고자 합니다.</p>
+                    
+                </div>
+               
+                <img src="images/content3/safe_01.jpg" alt="">
+                <div class="safe2">
+                    <dl>
+                        <dt>ASA 2020</dt>
+                        <dd>ASA 2020은 Always Safety Activity 이니셜로<br>안전하고 쾌적한 안전최적의 사업장을 확립한다는 의미를 내포한 비전어입니다.</dd>
+                    
+                        <dt>3S Activity</dt>
+                        <dd>3S Activity는 Safety Mind, Safety Habits, Safety Culture로 안전비전 달성을 위한 3대 운동원리입니다.<br>끊임없이 안전의식을 함양하며, 반복적인 실천을 통해 안전활동을 습관화하여 사업장 뿐만 아니라<br>생활전반에 걸쳐 안전문화를 정착시켜나가는 운동원리입니다.<dd>
+                    
+                        <dt>W&amp;L</dt>
+                        <dd>인간존중, 생명존중의 경영철학의 기반 위에 일과 삶의 균형잡힌 조화를 이루어<br>신바람 나는 일터, 행복한 가정을 가꾸는 바탕이 되고자 합니다.</dd>
+                    
+                    </dl>
+                </div>
+                
+                
+                <div class="innovation1">
+            
+                    <h3><span>AIA :</span> <span>A</span>lways <span>I</span>nnovation <span>A</span>ctivity</h3>
+                    <p>혁신의 출발은 사랑입니다. 혁신 없이는 어느 기업이나 어느 누구이건 미래를 장담할 수 없기 때문입니다.</p>
+                    
+                </div>
+               
+                <img src="images/content3/innovation_01.jpg" alt="">
+                
+                <div class="innovation2">
+                    <dl>
+                        <dt>AIA 2020</dt>
+                        <dd>AIA 2020은 Always Safety Activity 이니셜로<br>우리나라 최고의 사회적기업 롤모델 사업장을 확립한다는 의미를 내포한 비전어입니다.</dd>
+                    
+                        <dt>3I Activity</dt>
+                        <dd>3I Activity는 Innovation Mind, Innovation Habits, Innovation Culture로 혁신비전 달성을 위한 3대 운동원리입니다. 나로부터 혁신 마인드를 지속적으로 함양하며, 반복적인 창의적 실천을 통해 혁신활동을 습관화하여 사업장 뿐만 아니라 생활전반에 걸쳐 혁신문화를 정착시켜나가는 운동원리입니다.<dd>
+                    
+                        <dt>I&amp;I</dt>
+                        <dd>인간존중 생명존중의 경영철학의 기반 위에 일과 학습의 균형잡힌 조화를 이루며, 끊임없는 창의와 혁신으로 지속 가능한 사회적기업 최고의 롤모델을 정립해 나가고자 합니다.</dd>
+                    
+                    </dl>
+                </div>
+                
+                
+            </div>
+                
+        </article>
+        
+    <? include "../common/sub_foot.html" ?>
+    
+    <script src="../common/js/slide_move.js"></script>
+    
+</body>
+</html>

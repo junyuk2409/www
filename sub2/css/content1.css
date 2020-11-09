@@ -1,0 +1,19 @@
+#content .title_area{margin-bottom: 70px}
+#content .title_area p span{color: #ed1c24; font-weight: 700}
+
+#content .content_area{overflow: hidden}
+
+#content .content_area .overview{margin-left: 300px; margin-bottom: 100px}
+#content .content_area .overview1{width: 600px; background: black}
+#content .content_area .overview1 p{font-size: 36px; color: #fff; font-weight: 700; text-align: center; padding: 29px 0 29px 0}
+
+
+#content .content_area .overview2{width: 598px; border: 1px solid #333}
+#content .content_area .overview2 p{font-size: 18px; font-family: 'Nanum Gothic', sans-serif; color: #333; line-height: 1.5em; text-align: justify; margin: 20px}
+
+#content .content_area img{border: 1px solid #333}
+
+
+#content .content_area .text{text-align: justify; font-family: 'Nanum Gothic', sans-serif; color: #333; line-height: 2em}
+#content .content_area .text h3{font-size: 30px; margin-top: 100px}
+#content .content_area .text p{font-size: 15px; margin-top: 30px}
